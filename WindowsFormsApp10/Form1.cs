@@ -101,7 +101,7 @@ namespace WindowsFormsApp10
             SolidBrush yellowBrush = new SolidBrush(Color.Yellow);
             Pen drawPen = new Pen(Color.Black, 7);
             fg.FillRectangle(redBrush, 0, 0, 460, 145);
-            fg.FillRectangle(yellowBrush, 0, 145, 460, 155);
+            fg.FillRectangle(yellowBrush, 0, 145, 460, 155);//
             fg.FillRectangle(redBrush, 0, 300, 460, 145);
             fg.DrawRectangle(drawPen, 72, 12, 310, 405);
 
